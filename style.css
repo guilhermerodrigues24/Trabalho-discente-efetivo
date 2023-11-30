@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.inicio {
+    display: flex;
+    justify-content: space-between;
+    height: 13.4vh;
+    background-color: #F7F7FA;
+    border-top: 0,03rem solid #CDCACE;
+    border-bottom: 0.06rem solid #CDCACE;
+    padding: 0 2% 0;
+}
+
+.logotipo img {
+    padding-top: 1.25rem;
+    width: 8.1rem;
+}
+
+.links-inicio {
+    display: flex;
+    padding-top: 1.8rem;
+    gap: 3.1rem;
+    list-style-type: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.icone-busca img {
+    padding-top: 1.5rem;
+    margin-left: 17.5rem;
+    width: 1.8rem;
+}
+
+.vem-pra-conube {
+    display: flex;
+    align-items: center;
+    background-color: #8645FF;
+    color: #FFFFFF;
+    height: 1.25rem;
+    margin-top: 1.25rem;
+    padding: 1.4rem;
+    border-radius: 1.5rem;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+}
+
+.title-and-description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 80px;
+    gap: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #676482;
+}
+
+.title-and-description p {
+    color: #8645FF;
+    font-size: 14px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 52px;
+}
+
+.paragrafo {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 120px 0 120px;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: #676482;
+    gap: 40px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 52px;
+}
+
+.dicas {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 120px 0 120px;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: #676482;
+    gap: 20px;
+}
+
+.posts-relacionados {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    gap: 32px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 240px;
+    height: 280px;
+    background-color: #F7F7FA;
+    font-family: 'Nunito', sans-serif;
+    color: #8645FF;
+    border: solid 1px #8645FF;
+    padding-top: 10%;
+    border-radius: 20px;
+}
+
+.posts-relacionados-02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 32px;
+}
+
+.post-02 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 240px;
+    height: 280px;
+    background-color: #F7F7FA;
+    font-family: 'Nunito', sans-serif;
+    color: #8645FF;
+    border: solid 1px #8645FF;
+    padding-top: 10%;
+    border-radius: 20px;
+}
+
+.solicitar-proposta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    margin-top: 80px;
+    background-color: #8645FF;
+    padding-top: 100px;
+}
+
+.solicitar-proposta h1 {
+    font-size: 32px;
+}
+
+.solicite-proposta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    color: #50DFFF;
+}
+
+.solicitar-uma-proposta {
+    display: flex;
+    align-items: center;
+    background-color: #FFD43E;
+    color: #8645FF;
+    height: 1.25rem;
+    margin-top: 1.25rem;
+    padding: 1.4rem;
+    border-radius: 1.5rem;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+}
+
+.list-container {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    color: #676482;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list h3 {
+    color: #A39EB8;
+}
+
+.finally {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.paragrafo-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #A39EB8;
+    font-family: 'Nunito', sans-serif;
+}
+
+@media screen and (max-width: 780px) {
+    .inicio {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .logotipo img {
+        margin-bottom: 10px;
+    }
+
+    .links-inicio {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .icone-busca img {
+        margin-left: 0;
+    }
+}
